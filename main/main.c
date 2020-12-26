@@ -16,17 +16,9 @@ void app_main(void)
 
     while(1)
     {
-        display(myPins, num0);
+        display_write_number(myPins, 0);
         vTaskDelay(100);
-        display(myPins, num1);
-        vTaskDelay(100);
-        display(myPins, num2);
-        vTaskDelay(100);
-        display(myPins, num3);
-        vTaskDelay(100);
-        display(myPins, num4);
-        vTaskDelay(100);
-        display(myPins, num5);
+        display_write_number(myPins, 1);
         vTaskDelay(100);
     }
 }
