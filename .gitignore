@@ -1,0 +1,8 @@
+build/
+sdkconfig
+sdkconfig.old
+.vscode/
+*.log
+main/*.txt
+sdkconfig
+*.txt
